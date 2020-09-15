@@ -1,0 +1,1 @@
+mvn compile -Dmaven.tomcat.port=8887 tomcat7:run (to start tomcat server on 8887)
