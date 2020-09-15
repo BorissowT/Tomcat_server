@@ -3,3 +3,13 @@
 127.0.0.1 - - [15/Sep/2020:19:21:57 +0300] "GET /japp/ HTTP/1.1" 500 4448 http-bio-8887-exec-6 1030
 127.0.0.1 - - [15/Sep/2020:19:21:58 +0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8887-exec-5 0
 127.0.0.1 - - [15/Sep/2020:19:25:29 +0300] "GET /japp/ HTTP/1.1" 200 153 http-bio-8887-exec-1 27
+127.0.0.1 - - [15/Sep/2020:21:06:20 +0300] "GET / HTTP/1.1" 404 - http-bio-8887-exec-1 0
+127.0.0.1 - - [15/Sep/2020:21:06:27 +0300] "GET /sample HTTP/1.1" 404 - http-bio-8887-exec-3 0
+127.0.0.1 - - [15/Sep/2020:21:06:39 +0300] "GET /japp HTTP/1.1" 302 - http-bio-8887-exec-4 0
+127.0.0.1 - - [15/Sep/2020:21:06:39 +0300] "GET /japp/ HTTP/1.1" 200 155 http-bio-8887-exec-5 13
+127.0.0.1 - - [15/Sep/2020:21:06:45 +0300] "GET /sample/ HTTP/1.1" 404 - http-bio-8887-exec-6 0
+127.0.0.1 - - [15/Sep/2020:21:07:31 +0300] "GET /sample HTTP/1.1" 404 - http-bio-8887-exec-7 0
+127.0.0.1 - - [15/Sep/2020:21:08:54 +0300] "GET /sample HTTP/1.1" 404 - http-bio-8887-exec-2 0
+127.0.0.1 - - [15/Sep/2020:21:13:08 +0300] "GET /sample HTTP/1.1" 404 - http-bio-8887-exec-1 0
+127.0.0.1 - - [15/Sep/2020:21:13:12 +0300] "GET / HTTP/1.1" 404 - http-bio-8887-exec-3 0
+127.0.0.1 - - [15/Sep/2020:21:13:19 +0300] "GET /japp/sample HTTP/1.1" 200 11 http-bio-8887-exec-4 9
