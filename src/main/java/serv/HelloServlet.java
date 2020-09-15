@@ -7,20 +7,31 @@ import java.io.IOException;
 
 public class HelloServlet extends HttpServlet {
 
-    private String responseTemplate = "Hello world";
+    private String book_string = "<html>\n"
+            +"<body>"
+            + "<form action='/japp/sample' method='POST'><input name='book' placeholder='type in the name of book' >"
+            + "<input type='submit'></form></body>\n"
+            + "</html>";
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        process(request, response);
+        get_process(request, response);
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        process(request, response);
+        System.out.print(request.getParameter("data"));
+        post_process(request, response, request.getParameter("data"));
     }
 
-    private void process(HttpServletRequest request, HttpServletResponse response) throws IOException {
+    private void post_process(HttpServletRequest request, HttpServletResponse response, String data) throws IOException {
         response.setStatus(200);
-        response.getWriter().write(responseTemplate);
+        response.getWriter().write("The book is " + data);
+    }
+
+    private void get_process(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        response.setStatus(200);
+        response.getWriter().write(book_string);
     }
 }
+
