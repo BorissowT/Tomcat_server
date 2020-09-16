@@ -12,4 +12,36 @@
     <servlet-name>SampleServlet</servlet-name>
     <url-pattern>/sample</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>SecondServlet</servlet-name>
+    <servlet-class>serv.SecondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SecondServlet</servlet-name>
+    <url-pattern>/second</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ThirdServlet</servlet-name>
+    <servlet-class>serv.ThirdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ThirdServlet</servlet-name>
+    <url-pattern>/third</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FourthServlet</servlet-name>
+    <servlet-class>serv.FourthServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FourthServlet</servlet-name>
+    <url-pattern>/fourth</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FifthServlet</servlet-name>
+    <servlet-class>serv.FifthServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FifthServlet</servlet-name>
+    <url-pattern>/fifth</url-pattern>
+  </servlet-mapping>
 </web-app>

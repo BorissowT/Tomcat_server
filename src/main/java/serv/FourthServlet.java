@@ -7,7 +7,7 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.Enumeration;
 
-public class HelloServlet extends HttpServlet {
+public class FourthServlet extends HttpServlet {
 
     private String book_string = "<html>\n"
             +"<body>"
